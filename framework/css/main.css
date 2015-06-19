@@ -15,16 +15,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	text-align: right;
 	font-size: 3em;
 	margin-bottom: 0em;
 }
 
 h2 {
+	text-align: right;
 	margin-top: 0em;
 
 }
 
+h4 {
+	font-size: 1.2em;
+	text-align: center;
+}
+
 ul {
+	text-align: center;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -59,10 +67,10 @@ li {
 }
 .col-4 {
 	width: 33.33%;
-	
+
 }
 .col-5 {
-	width: 41.66;
+	width: 41.66%;
 }
 .col-6 {
 	width: 50%;
@@ -85,6 +93,22 @@ li {
 .col-12 {
 	width: 100%;
 
+}
+
+img.full {
+	width: 100%;
+}
+
+img.medium {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+img.small {
+	width: 20%;
 }
 
 @media only screen and (max-width: 500px) {
